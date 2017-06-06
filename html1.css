@@ -23,6 +23,7 @@ table, td, th {
 	text-align: center;
 }
 
-.tableau {
-	text-align: center;
+table {
+	margin: auto;
+	width:300px;
 }
