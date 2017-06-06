@@ -1,9 +1,9 @@
-.castle {
-	height: 300px;
-	border-radius: 60%;
+.myself {
+	height: 350px;
+	border-radius: 50%;
 	border: 2px solid Crimson;
 }
 
-.centercastle {
+.centerme {
 	text-align: center;
 }
