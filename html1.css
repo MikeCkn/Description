@@ -1,9 +1,28 @@
+body {
+	font-family: Quicksand, sans-serif;
+}
+
 .myself {
-	height: 350px;
+	height: 250px;
 	border-radius: 50%;
 	border: 2px solid Crimson;
 }
 
-.centerme {
+.center {
+	text-align: center;
+}
+
+.github, .twitter, .linkedin {
+	height: 50px;
+	border-radius: 50%;
+}
+
+table, td, th {
+	border-collapse: collapse;
+	border:1px solid black;
+	text-align: center;
+}
+
+.tableau {
 	text-align: center;
 }
