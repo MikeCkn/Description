@@ -1,3 +1,24 @@
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none ;
+ }
+
+ul li a {
+	float: right;  
+	width: 150px;
+	line-height: 25px;
+	background: black;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+ }
+
+ul li a:hover {
+	color: lightcoral;
+	font-weight: bold;
+ }  
+
 body {
 	font-family: Quicksand, sans-serif;
 	background: AntiqueWhite;
@@ -6,21 +27,23 @@ body {
 .myself {
 	height: 250px;
 	border-radius: 50%;
-	border: 2px solid Crimson;
+	border: 2px solid lightcoral;
 }
 
 .container {
+	padding: 50px;
 	text-align: center;
 }
 
 figcaption:hover {
 	color:Crimson;
 	margin-left: 0px;
+	font-weight: bold;
 }
 
 .simplon {
 	font-weight: bold;
-	color: Crimson;
+	color: lightcoral;
 }
 
 p {
@@ -34,19 +57,21 @@ p {
 
 
 .github, .twitter, .linkedin {
-	height: 50px;
-	border-radius: 50%;
-	margin: 0px 80px 0px 80px;
+	height: 40px;
+	margin: 5px 60px 5px 60px;
 }
+
 
 table, td, th {
 	border-collapse: collapse;
 	border:1px solid black;
 	text-align: center;
+	background-color: lightcoral;
 }
 
 a:hover {
-	color: Crimson;
+	color: antiquewhite;
+	font-weight: bold;
 }
 
 table {
