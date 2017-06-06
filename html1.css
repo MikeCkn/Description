@@ -1,6 +1,6 @@
 body {
 	font-family: Quicksand, sans-serif;
-	background: AntiqueWhite; 
+	background: AntiqueWhite;
 }
 
 .myself {
@@ -9,13 +9,34 @@ body {
 	border: 2px solid Crimson;
 }
 
-.center {
+.container {
 	text-align: center;
 }
+
+figcaption:hover {
+	color:Crimson;
+	margin-left: 0px;
+}
+
+.simplon {
+	font-weight: bold;
+	color: Crimson;
+}
+
+p {
+	margin: 50px 0px 50px 0px;
+}
+
+.godfather, .inception, .terminator, .aliens {
+	text-decoration: none;
+	color: black;
+}
+
 
 .github, .twitter, .linkedin {
 	height: 50px;
 	border-radius: 50%;
+	margin: 0px 80px 0px 80px;
 }
 
 table, td, th {
@@ -24,7 +45,20 @@ table, td, th {
 	text-align: center;
 }
 
+a:hover {
+	color: Crimson;
+}
+
 table {
 	margin: auto;
 	width:300px;
+
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
 }
