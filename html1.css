@@ -1,66 +1,60 @@
-ul {
-	padding: 0;
-	margin: 0;
-	list-style-type: none ;
- }
-
-ul li a {
-	float: right;  
-	width: 150px;
-	line-height: 25px;
-	background: black;
-	color: white;
-	text-decoration: none;
-	text-align: center;
- }
-
-ul li a:hover {
-	color: lightcoral;
-	font-weight: bold;
- }  
-
+/*--- BODY ---*/
 body {
 	font-family: Quicksand, sans-serif;
 	background: AntiqueWhite;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+/*--- END BODY ---*/
+
+/*--- CONTAINER ---*/
+.container {
+	/*display: flex;
+	justify-content: center;*/
+	text-align: center;
+}
+/*--- END CONTAINER ---*/
+
+/*--- NAV ---*/
+#menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  text-decoration: none;
+  height: 30px;
+
 }
 
-.myself {
+#infos, #movies, #contact {
+  text-decoration: none;
+  margin: auto;
+  color: lightcoral;
+
+}
+
+#infos:hover, #movies:hover, #contact:hover {
+  color: crimson;
+  font-weight: bold;
+}
+/*--- END NAV ---*/
+
+img {
 	height: 250px;
 	border-radius: 50%;
 	border: 2px solid lightcoral;
-}
+	margin-top: 50px;
 
-.container {
-	padding: 50px;
-	text-align: center;
-}
-
-figcaption:hover {
-	color:Crimson;
-	margin-left: 0px;
-	font-weight: bold;
-}
-
-.simplon {
-	font-weight: bold;
-	color: lightcoral;
 }
 
 p {
 	margin: 50px 0px 50px 0px;
 }
 
-.godfather, .inception, .terminator, .aliens {
-	text-decoration: none;
-	color: black;
+.simplon {
+	font-weight: bold;
+	color: lightcoral;
 }
-
-
-.github, .twitter, .linkedin {
-	height: 40px;
-	margin: 5px 60px 5px 60px;
-}
-
 
 table, td, th {
 	border-collapse: collapse;
@@ -78,12 +72,25 @@ table {
 	margin: auto;
 	width:300px;
 
+
 }
 
-footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
+.godfather, .inception, .terminator, .aliens {
+	text-decoration: none;
+	color: black;
+}
 
+
+
+/*FOOTER */
+
+footer {
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.github, .twitter, .linkedin {
+	height: 40px;
+	margin: 5px 60px 5px 60px;
 }
